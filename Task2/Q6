@@ -1,0 +1,10 @@
+let students = [
+    "Arun": 85,
+    "Bala": 90,
+    "Cathy": 78,
+    "David": 88,
+    "Ezhil": 95
+]
+for (key, value) in students {
+    print("\(key): \(value)")
+}
