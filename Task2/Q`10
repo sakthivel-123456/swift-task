@@ -1,0 +1,8 @@
+let numbers = [1, 2, 3, 2, 4, 1, 5]
+var result: [Int] = []
+for number in numbers {
+    if !result.contains(number) {
+        result.append(number)
+    }
+}
+print(result)
